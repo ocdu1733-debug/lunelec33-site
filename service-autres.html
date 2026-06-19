@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Autres prestations — LunElec33</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root{--lilas:#9B8FE4;--lilas-light:#F0EDFF;--lilas-mid:#C9C0F0;--lilas-dark:#6B5FC0;--lilas-deep:#4A3FA0;--text:#1a1a2e;--text-muted:#6b6880;--bg:#fff;--bg-soft:#F8F7FF;--border:#E8E5F5;--radius:14px;--radius-sm:8px;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:'Inter',sans-serif;color:var(--text);background:var(--bg);font-size:16px;line-height:1.6;}
+    nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+    .nav-inner{max-width:1160px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:68px;}
+    .nav-logo{font-family:'Poppins',sans-serif;font-size:18px;font-weight:800;color:var(--lilas-dark);text-decoration:none;}
+    .nav-back{background:var(--lilas-light);color:var(--lilas-dark);padding:10px 20px;border-radius:var(--radius-sm);font-size:14px;font-weight:600;text-decoration:none;}
+    .container{max-width:860px;margin:0 auto;padding:0 2rem;}
+    .hero{background:white;padding:5rem 2rem 4rem;border-bottom:1.5px solid var(--border);}
+    .eyebrow{display:inline-block;font-size:11px;font-weight:700;color:var(--lilas);text-transform:uppercase;letter-spacing:0.12em;background:var(--lilas-light);padding:5px 14px;border-radius:20px;margin-bottom:1rem;}
+    h1{font-family:'Poppins',sans-serif;font-size:2.4rem;font-weight:800;color:var(--text);line-height:1.15;margin-bottom:1.25rem;}
+    h1 em{font-style:normal;color:var(--lilas-dark);}
+    .intro{font-size:1.1rem;color:var(--text-muted);max-width:700px;margin-bottom:2rem;line-height:1.75;}
+    .btns{display:flex;gap:1rem;flex-wrap:wrap;}
+    .btn-primary{background:var(--lilas-dark);color:white;padding:14px 28px;border-radius:10px;font-size:15px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:9px;}
+    .btn-outline{background:transparent;color:var(--lilas-dark);border:2px solid var(--lilas-mid);padding:14px 28px;border-radius:10px;font-size:15px;font-weight:600;text-decoration:none;}
+    .section{padding:3.5rem 2rem;}.section.alt{background:var(--bg-soft);}
+    h2{font-family:'Poppins',sans-serif;font-size:1.5rem;font-weight:700;margin-bottom:1.25rem;color:var(--text);}
+    h2 span{color:var(--lilas-dark);}
+    p{color:var(--text-muted);margin-bottom:1rem;line-height:1.75;}
+    ul{list-style:none;padding:0;margin:0 0 1rem 0;}
+    ul li{color:var(--text-muted);padding:0.6rem 0 0.6rem 2rem;position:relative;line-height:1.6;border-bottom:1px solid var(--border);}
+    ul li:last-child{border-bottom:none;}
+    ul li::before{content:"⚡";position:absolute;left:0;font-size:14px;}
+    .box{border-left:4px solid var(--lilas-dark);padding:1.25rem 1.5rem;margin:1.5rem 0;border-radius:0 var(--radius-sm) var(--radius-sm) 0;background:var(--lilas-light);}
+    .box p{color:var(--text);margin:0;font-weight:500;}
+    .photos-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;margin-top:1.5rem;}
+    .photo-add{border:2px dashed var(--lilas-mid);border-radius:var(--radius);aspect-ratio:4/3;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;cursor:pointer;background:white;}
+    .photo-add:hover{background:var(--lilas-light);}
+    .photo-add span{font-size:13px;color:var(--text-muted);}
+    .photo-item{border-radius:var(--radius);overflow:hidden;aspect-ratio:4/3;position:relative;}
+    .photo-item img{width:100%;height:100%;object-fit:cover;}
+    .photo-item .del{position:absolute;top:8px;right:8px;background:rgba(0,0,0,0.55);color:white;border:none;border-radius:50%;width:26px;height:26px;cursor:pointer;font-size:16px;}
+    .cta-band{background:linear-gradient(150deg,var(--lilas-deep),var(--lilas-dark));padding:4rem 2rem;text-align:center;}
+    .cta-band h2{color:white;margin-bottom:0.75rem;}.cta-band p{color:#DDD8FF;margin-bottom:2rem;}
+    .btn-white{background:white;color:var(--lilas-dark);padding:14px 28px;border-radius:10px;font-size:15px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:9px;}
+    footer{background:var(--lilas-deep);padding:2rem;text-align:center;}
+    footer p{color:var(--lilas-mid);font-size:13px;}
+    footer a{color:var(--lilas-mid);text-decoration:none;}
+  </style>
+</head>
+<body>
+<nav><div class="nav-inner">
+  <a class="nav-logo" href="index.html">⚡ LunElec33</a>
+  <a href="index.html#services" class="nav-back">← Retour aux services</a>
+</div></nav>
+
+<section class="hero"><div class="container">
+  <span class="eyebrow">Autres prestations</span>
+  <h1>Éclairages, électroménager<br><em>et petits travaux</em></h1>
+  <p class="intro">Luminaires, prises de recharge, petits travaux du quotidien — je m'occupe de tout ce qui touche à l'électricité dans votre logement, du plus simple au plus technique.</p>
+  <div class="btns">
+    <a href="index.html#devis-form" class="btn-primary">Demander un devis gratuit</a>
+    <a href="tel:0614968661" class="btn-outline">06.14.96.86.61</a>
+  </div>
+</div></section>
+
+<section class="section alt"><div class="container">
+  <h2>Ce que je <span>réalise aussi</span></h2>
+  <ul>
+    <li>Éclairages et luminaires intérieurs : spots encastrés, appliques, suspensions, variateurs</li>
+    <li>Éclairages extérieurs : jardin, terrasse, façade, éclairage de sécurité</li>
+    <li>Connexion et raccordement d'électroménager (four, plaque induction, lave-linge, lave-vaisselle…)</li>
+    <li>Prises de recharge pour véhicules électriques (IRVE)</li>
+    <li>Ajout de prises électriques ou de points lumineux</li>
+    <li>Remplacement d'interrupteurs, de prises ou de tableaux de communication</li>
+    <li>Petits travaux et dépannages divers</li>
+    <li>Conseils sur vos installations et équipements</li>
+  </ul>
+</div></section>
+
+<section class="section"><div class="container">
+  <h2>Vous avez un besoin <span>non listé ?</span></h2>
+  <p>N'hésitez pas à me contacter — si c'est dans le domaine de l'électricité, il y a de bonnes chances que je puisse vous aider !</p>
+  <div class="box"><p>Je vous répondrai rapidement avec un devis gratuit et transparent, adapté à votre situation.</p></div>
+</div></section>
+
+<section class="section alt"><div class="container">
+  <h2>Mes <span>réalisations</span></h2>
+  <p>Cliquez sur "+" pour ajouter vos photos.</p>
+  <div class="photos-grid" id="photos-grid">
+    <div class="photo-add" onclick="document.getElementById('photo-input').click()">
+      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--lilas)" stroke-width="1.5"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="16"></line><line x1="8" y1="12" x2="16" y2="12"></line></svg>
+      <span>Ajouter une photo</span>
+    </div>
+  </div>
+  <input type="file" id="photo-input" accept="image/jpeg,image/png,image/webp" multiple style="display:none" onchange="handlePhotos(this.files)" />
+</div></section>
+
+<section class="cta-band">
+  <h2>Un petit travail électrique ?</h2>
+  <p>Devis gratuit sous 48h — Intervention en Médoc et Bordeaux Métropole</p>
+  <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;">
+    <a href="index.html#devis-form" class="btn-white">Demander un devis</a>
+    <a href="tel:0614968661" class="btn-primary">06.14.96.86.61</a>
+  </div>
+</section>
+
+<footer><p>© 2025 LunElec33 — <a href="index.html">Retour au site</a> — <a href="mailto:floryane.lunelec@gmail.com">floryane.lunelec@gmail.com</a></p></footer>
+<script>
+function handlePhotos(files){const grid=document.getElementById("photos-grid");const btn=grid.querySelector(".photo-add");Array.from(files).forEach(f=>{const d=document.createElement("div");d.className="photo-item";const i=document.createElement("img");i.src=URL.createObjectURL(f);const x=document.createElement("button");x.className="del";x.textContent="×";x.onclick=()=>d.remove();d.appendChild(i);d.appendChild(x);grid.insertBefore(d,btn);});}
+</script>
+</body></html>

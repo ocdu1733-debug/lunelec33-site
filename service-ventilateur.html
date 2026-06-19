@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ventilateur — LunElec33</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root{--lilas:#9B8FE4;--lilas-light:#F0EDFF;--lilas-mid:#C9C0F0;--lilas-dark:#6B5FC0;--lilas-deep:#4A3FA0;--text:#1a1a2e;--text-muted:#6b6880;--bg:#fff;--bg-soft:#F8F7FF;--border:#E8E5F5;--radius:14px;--radius-sm:8px;}
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body{font-family:'Inter',sans-serif;color:var(--text);background:var(--bg);font-size:16px;line-height:1.6;}
+    nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,0.96);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);}
+    .nav-inner{max-width:1160px;margin:0 auto;padding:0 2rem;display:flex;align-items:center;justify-content:space-between;height:68px;}
+    .nav-logo{font-family:'Poppins',sans-serif;font-size:18px;font-weight:800;color:var(--lilas-dark);text-decoration:none;}
+    .nav-back{background:var(--lilas-light);color:var(--lilas-dark);padding:10px 20px;border-radius:var(--radius-sm);font-size:14px;font-weight:600;text-decoration:none;}
+    .container{max-width:860px;margin:0 auto;padding:0 2rem;}
+    .hero{background:white;padding:5rem 2rem 4rem;border-bottom:1.5px solid var(--border);}
+    .eyebrow{display:inline-block;font-size:11px;font-weight:700;color:var(--lilas);text-transform:uppercase;letter-spacing:0.12em;background:var(--lilas-light);padding:5px 14px;border-radius:20px;margin-bottom:1rem;}
+    h1{font-family:'Poppins',sans-serif;font-size:2.2rem;font-weight:800;color:var(--text);line-height:1.2;margin-bottom:1.25rem;}
+    h1 em{font-style:normal;color:var(--lilas-dark);}
+    .intro{font-size:1.1rem;color:var(--text-muted);max-width:700px;margin-bottom:2rem;line-height:1.75;}
+    .btns{display:flex;gap:1rem;flex-wrap:wrap;}
+    .btn-primary{background:var(--lilas-dark);color:white;padding:14px 28px;border-radius:10px;font-size:15px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:9px;}
+    .btn-outline{background:transparent;color:var(--lilas-dark);border:2px solid var(--lilas-mid);padding:14px 28px;border-radius:10px;font-size:15px;font-weight:600;text-decoration:none;}
+    .section{padding:3.5rem 2rem;}.section.alt{background:var(--bg-soft);}
+    h2{font-family:'Poppins',sans-serif;font-size:1.5rem;font-weight:700;margin-bottom:1.25rem;color:var(--text);}
+    h2 span{color:var(--lilas-dark);}
+    h3{font-family:'Poppins',sans-serif;font-size:1.05rem;font-weight:700;color:var(--lilas-dark);margin:1.75rem 0 0.5rem;}
+    p{color:var(--text-muted);margin-bottom:1rem;line-height:1.75;}
+    .avantages{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.25rem;margin-top:1.5rem;}
+    .avantage{background:white;border:1.5px solid var(--border);border-radius:var(--radius);padding:1.75rem;}
+    .avantage-icon{font-size:2rem;margin-bottom:0.75rem;}
+    .avantage h3{margin-top:0;margin-bottom:0.5rem;}
+    .avantage p{font-size:0.95rem;margin:0;}
+    .box{border-left:4px solid var(--lilas-dark);padding:1.25rem 1.5rem;margin:1.5rem 0;border-radius:0 var(--radius-sm) var(--radius-sm) 0;background:var(--lilas-light);}
+    .box p{color:var(--text);margin:0;font-weight:500;}
+    .cta-band{background:linear-gradient(150deg,var(--lilas-deep),var(--lilas-dark));padding:4rem 2rem;text-align:center;}
+    .cta-band h2{color:white;margin-bottom:0.75rem;}.cta-band p{color:#DDD8FF;margin-bottom:2rem;}
+    .btn-white{background:white;color:var(--lilas-dark);padding:14px 28px;border-radius:10px;font-size:15px;font-weight:700;text-decoration:none;display:inline-flex;align-items:center;gap:9px;}
+    footer{background:var(--lilas-deep);padding:2rem;text-align:center;}
+    footer p{color:var(--lilas-mid);font-size:13px;}
+    footer a{color:var(--lilas-mid);text-decoration:none;}
+  </style>
+</head>
+<body>
+<nav><div class="nav-inner">
+  <a class="nav-logo" href="index.html">⚡ LunElec33</a>
+  <a href="index.html#services" class="nav-back">← Retour aux services</a>
+</div></nav>
+
+<section class="hero"><div class="container">
+  <span class="eyebrow">Confort & ventilation</span>
+  <h1>Installation de <em>ventilateurs</em></h1>
+  <p class="intro">Le texte de présentation sera ajouté prochainement.</p>
+  <div class="btns">
+    <a href="index.html#devis-form" class="btn-primary">Demander un devis gratuit</a>
+    <a href="tel:0614968661" class="btn-outline">06.14.96.86.61</a>
+  </div>
+</div></section>
+
+<div class="cta-band">
+  <div class="container">
+    <h2>Un projet de ventilateur ?</h2>
+    <p>Contactez-moi pour un devis gratuit sous 48h.</p>
+    <a href="tel:0614968661" class="btn-white">📞 06.14.96.86.61</a>
+  </div>
+</div>
+
+<footer>
+  <p>© 2025 LunElec33 — <a href="index.html">Accueil</a> — Élisabeth Bordenave — SIRET 123 456 789 00010</p>
+</footer>
+</body>
+</html>
