@@ -31,6 +31,16 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://lunelec.fr/service-solaire.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://lunelec.fr/service-ventilateur.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://lunelec.fr/about.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
